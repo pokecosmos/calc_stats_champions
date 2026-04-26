@@ -1480,7 +1480,7 @@ function readurl(){
 		return;
 	}
 	const targetElement = document.nForm.elements;
-	let baseURL = "https://pokecosmos.github.io/calc_stats_sv/#";
+	let baseURL = "https://pokecosmos.github.io/calc_stats_champions/#";
 	let text = currentURL.replace(baseURL, "");
 	let num;
 	let firstPart;
