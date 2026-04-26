@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+	background-color: #f0f8ff;
+	color: #000000;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	font-size: 16px;
+}
+p {
+	line-height: 0px;
+}
+input{
+	width: 47px;
+}
+input.name{
+	width: 160px;
+}
+input.button{
+	width: 30px;
+	padding: 1px;
+}
+input.taikyu{
+	width: 65px;
+	padding: 1px;
+}
+input.taikyu2{
+	width: 90px;
+	padding: 1px;
+	visibility: visible;
+}
+input.updown{
+	width: 19px;
+	padding: 1px;
+}
+input.ALL0{
+	width: 38px;
+	padding: 1px;
+}
+input.check{
+	width: 20px;
+}
+input.mega{
+	width: 80px;
+	height: 26px;
+	visibility: hidden;
+}
+input.tweetbtn{
+	width: 150px;
+}
+.class3{
+    line-height: 25px;
+}
+.class4{
+    line-height: 16px;
+    font-size: 12px;
+    width:510px; 
+}
+
+table.class5{
+    background-color:white;
+}
+.class7{
+    display :none;
+}
+.class8{
+    width:460px;
+}
+textarea{
+    width:550px;
+}
+
+/*-- スマホ版非表示設定  --*/
+@media screen and (max-width: 500px){
+	input.pc{
+		display:none;
+	}
+	table{
+		font-size: 12px;
+	}
+	textarea{
+	    width:100%;
+	}
+}
